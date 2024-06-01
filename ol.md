@@ -3,7 +3,7 @@ Subconsultas Con operadores básicos de comparación
 Devuelve el nombre del cliente con mayor límite de crédito.
 ´´´sql 
 SELECT nombreCliente FROM cliente ORDER BY limiteCredito DESC LIMIT 1;
-
+´´´
 Devuelve el nombre del producto que tenga el precio de venta más caro. select nombre from producto order by precioVenta desc limit 1;
 
 Devuelve el nombre del producto del que se han vendido más unidades. (Tenga en cuenta que tendrá que calcular cuál es el número total de unidades que se han vendido de cada producto a partir de los datos de la tabla detalle_pedido)
